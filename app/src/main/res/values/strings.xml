@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseAuthDemo</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="tv_loginsuccessful">You are logged in successfully.</string>
+</resources>
