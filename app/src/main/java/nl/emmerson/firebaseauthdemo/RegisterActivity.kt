@@ -72,6 +72,7 @@ class RegisterActivity : AppCompatActivity() {
                     val email: String = findViewById<EditText>(R.id.et_register_email).text.toString().trim { it <= ' ' }
                     val password: String = findViewById<EditText>(R.id.et_register_password).text.toString().trim { it <= ' ' }
 
+                    //simple check to see if the email is translated to text correctly
                     Log.d("Email", email)
 
                     //create an instance and create a register a user with email and password.
